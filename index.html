@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+body
+{
+    background:linear-gradient(135deg,#1f0036,#1a0066,#0f1f94);
+}
+.container
+{
+    margin:200px;
+    margin-left:350px;
+}
+h1{
+    font-size:50px;
+    color:#c6cdd4;
+    margin-right:100px;
+    text-align:center;
+}.box
+{
+    width:500px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:white;
+    /*background:linear-gradient(135deg,#ff007f,#6a0dad,#007bff);
+    padding:20px;
+    margin:10px;
+    font-size:24px;
+    font-weight: bold;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.2);
+    border-radius: 10px;*/
+}
+.clock
+{
+ height:100px;
+ width:100px;
+ padding:10px;
+
+}.front
+{
+    background:linear-gradient(135deg,#ff007f,#6a0dad,#007bff);
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.2);
+    height:100px;
+    width:100px;
+    border-radius: 10px;
+}.ch
+{
+font-weight: bold;
+text-align: center;
+padding:10px;
+font-size: 30px;
+}
+p{
+    margin-top:20px;
+}
+.dates
+{
+    width:500px;
+    text-align:center;
+    font-size:30px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding:20px;
+    color:#c6cdd4;
+    font-weight:200px;
+}
+</style>
+<body>
+    <div class="container">
+        <div class="dates">
+        <span id="date">7</span>
+        <span id="month">ajn</span>
+        <span id="year">2030</span>
+        </div>
+    <div class="box">
+        <div class="clock">
+            <div class="front">
+    <div class="ch" id="hrs">00</div>
+    <p>Hour</p>
+</div>
+</div>
+<div class="clock">
+    <div class="front">
+    <div class="ch" id="mins">00</div>
+    <p>Minutes</p>
+</div>
+</div>
+<div class="clock">
+    <div class="front">
+    <div class="ch" id="secs">00</div>
+    <p>Seconds</p>
+</div>
+</div>
+    </div>
+    <h1>DIGITAL CLOCK</h1>
+</div>
+</body>
+<script src="script.js">
+</script>
+</html>
